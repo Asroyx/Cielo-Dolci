@@ -66,13 +66,13 @@ button:hover {
   background-color: rgba(239, 45, 86, 1);
 }
 
-.hero {
+.main {
   width: 100%;
   height: calc(100vh - 98px);
   background-image: url(assets/banner.png);
 }
 
-.hero__titles {
+.main__titles {
   position: relative;
   top: 32vh;
   text-align: center;
@@ -81,7 +81,7 @@ button:hover {
   line-height: 1.8em;
 }
 
-.hero__btn {
+.main__btn {
   background: #fa8334;
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
