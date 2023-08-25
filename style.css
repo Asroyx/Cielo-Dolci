@@ -27,12 +27,12 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 10%;
-  top: 0;
+  padding: 12px 10%;
 }
 
 .header__logo {
-  width: 58px;
+  height: 57px;
+  padding: 12px 20px 0px 20px;
   cursor: pointer;
 }
 
@@ -68,13 +68,13 @@ button:hover {
 
 .main {
   width: 100%;
-  height: calc(100vh - 98px);
-  background-image: url(assets/banner.png);
+  height: calc(100vh - 88px);
+  background-image: url(assets/banner1.png);
 }
 
 .main__titles {
   position: relative;
-  top: 32vh;
+  top: 34vh;
   text-align: center;
   color: #fffceb;
   text-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
