@@ -107,7 +107,6 @@ button:hover {
 .features__btn {
   padding: 9px 25px;
   background: #fa8334;
-  box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.1);
   border: none;
   border-radius: 50px;
   cursor: pointer;
