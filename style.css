@@ -6,6 +6,17 @@ h1 {
 h2 {
   font-size: 44px;
 }
+h3 {
+  font-size: 38px;
+  color: #fa8334;
+  font-weight: 300;
+}
+h4 {
+  font-size: 32px;
+  color: #fa8334;
+  font-weight: 300;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -57,7 +68,7 @@ button {
   padding: 9px 25px;
   background-color: rgba(239, 45, 86, 0);
   border: none;
-  border-radius: 50px;
+  border-radius: 12px;
   cursor: pointer;
   transition: all 0.3s ease 0s;
 }
@@ -66,7 +77,7 @@ button:hover {
   background-color: rgba(239, 45, 86, 1);
 }
 
-.main {
+main {
   width: 100%;
   height: calc(100vh - 88px);
   background-image: url(assets/banner1.png);
@@ -76,7 +87,7 @@ button:hover {
   position: relative;
   top: 34vh;
   text-align: center;
-  color: #fffceb;
+  color: #ffffff;
   text-shadow: 1px 1px 8px rgba(0, 0, 0, 1);
   line-height: 1.8em;
 }
@@ -86,29 +97,34 @@ button:hover {
   box-shadow: 2px 2px 20px rgba(0, 0, 0, 0.5);
 }
 
-.features {
+.content {
   height: 100vh;
   padding: 104px 40px 74px 40px;
 }
-.features_container {
-  width: 80vw;
+.content__container {
+  width: 64vw;
   margin: auto;
 }
 
-.features__title {
+.content__title {
   text-align: center;
 }
 
-.features__title h3 {
-  color: #fa8334;
-  font-weight: 300;
+.content__btn {
+  background: #fa8334;
 }
 
-.features__btn {
-  padding: 9px 25px;
-  background: #fa8334;
+.content__divider {
+  margin: 2em auto;
   border: none;
-  border-radius: 50px;
-  cursor: pointer;
-  transition: all 0.3s ease 0s;
+  height: 1px;
+  width: 4em;
+  background: #fa8334;
+}
+
+.category__card {
+  text-align: center;
+  width: 600px;
+  display: inline-block;
+  margin: 20px 6px;
 }
