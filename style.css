@@ -81,6 +81,8 @@ main {
   width: 100%;
   height: calc(100vh - 88px);
   background-image: url(assets/banner1.png);
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .main__titles {
