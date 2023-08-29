@@ -10,11 +10,13 @@ h3 {
   font-size: 38px;
   color: #fa8334;
   font-weight: 300;
+  text-align: center;
 }
 h4 {
   font-size: 32px;
   color: #fa8334;
   font-weight: 300;
+  text-align: center;
 }
 
 * {
@@ -80,7 +82,7 @@ button:hover {
 main {
   width: 100%;
   height: calc(100vh - 88px);
-  background-image: url(assets/banner1.png);
+  background-image: url(assets/banner.png);
   background-repeat: no-repeat;
   background-size: cover;
 }
@@ -116,7 +118,7 @@ main {
   background: #fa8334;
 }
 
-.content__divider {
+hr {
   margin: 2em auto;
   border: none;
   height: 1px;
@@ -125,8 +127,28 @@ main {
 }
 
 .category__card {
-  text-align: center;
   width: 600px;
   display: inline-block;
   margin: 20px 6px;
+}
+
+.content__feedback h3 {
+  margin-top: 2em;
+}
+
+.feedback__container {
+  display: flex;
+}
+
+.feedback__txt {
+  margin: 0 1em;
+  text-align: center;
+  flex: 1;
+  width: 200px;
+}
+
+.feedback__txt img {
+  stroke: #fa8334;
+  stroke-width: 333px;
+  width: 30px;
 }
