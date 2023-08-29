@@ -102,7 +102,6 @@ main {
 }
 
 .content {
-  height: 100vh;
   padding: 104px 40px 74px 40px;
 }
 .content__container {
@@ -151,4 +150,34 @@ hr {
   stroke: #fa8334;
   stroke-width: 333px;
   width: 30px;
+}
+
+footer {
+  height: 40vh;
+  background: #231a23;
+  color: #b8b8b8;
+  padding: 3em 20em;
+}
+.footer__left {
+  line-height: 2em;
+  font-size: 12px;
+  float: left;
+}
+.footer__right li {
+  float: right;
+  display: inline-block;
+  list-style: none;
+  margin: 0 1em;
+}
+.footer__right li a {
+  color: #b8b8b8;
+  transition: all 0.3s ease 0s;
+}
+
+.footer__right li a:hover {
+  color: #fff;
+}
+
+.footer__cr {
+  margin-top: 300px;
 }
